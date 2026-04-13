@@ -185,9 +185,9 @@
  */
 
 // import mongoose
-
+import mongoose from "mongoose";
 // establish connection
-
+mongoose.connect("mongodb+srv://fatimah:fatimah-web@cluster0.pm2qb5g.mongodb.net/TestDB");
 
 // define schema
 
