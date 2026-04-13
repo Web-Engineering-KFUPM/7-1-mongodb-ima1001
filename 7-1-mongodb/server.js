@@ -209,7 +209,11 @@ async function createStudents() {
       createStudents();
 
 // read document
-
+async function readStudents() {
+         const all = await Student.find();
+         console.log(all);
+      }
+      readStudents();
 
 // update document
 
